@@ -21,7 +21,7 @@ public class King extends Piece{
 
             if (Math.abs(targetCol - prevCol) + Math.abs(targetRow - prevRow) == 1 ||
                     Math.abs(targetCol - prevCol) * Math.abs(targetRow - prevRow) == 1){
-                if (isValidSquare(targetCol, targetRow)){
+                if (isValidSquare(targetCol, targetRow)){ 
                     return true;
                 }       
             }
